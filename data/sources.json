@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com",
+    "icon": "https://example.com/techcrunch-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "CoinDesk",
+    "url": "https://coindesk.com",
+    "icon": "https://example.com/coindesk-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "Vogue",
+    "url": "https://vogue.com",
+    "icon": "https://example.com/vogue-icon.png"
+  },
+  {
+    "id": 4,
+    "name": "Wired",
+    "url": "https://wired.com",
+    "icon": "https://example.com/wired-icon.png"
+  },
+  {
+    "id": 5,
+    "name": "Forbes",
+    "url": "https://forbes.com",
+    "icon": "https://example.com/forbes-icon.png"
+  },
+  {
+    "id": 6,
+    "name": "The Verge",
+    "url": "https://theverge.com",
+    "icon": "https://example.com/theverge-icon.png"
+  }
+]
