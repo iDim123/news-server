@@ -67,6 +67,22 @@ router.get('/api/relatedNews/:id', async (req, res) => {
   }
 });
 
+router.get('/api/news/search', async (req, res) => {
+  await sleep(500);
+  const { title_like } = req.query;
+  
+  if (title_like) {
+    const filteredNews = news
+      .filter((newsItem) =>
+        newsItem.title.toLowerCase().includes(title_like.toLowerCase())
+      )
+      .map((data) => ({ id: data.id, title: data.title }));
+    return res.send(filteredNews);
+  }
+
+  res.send([]);
+});
+
 router.get('/api/rss-news', async (req, res) => {
   res.send(rssNews);
 });
